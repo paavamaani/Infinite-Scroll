@@ -1,0 +1,24 @@
+.photos-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  flex-wrap: wrap;
+}
+
+.photo-wrapper {
+  width: 400px;
+  height: 400px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photo {
+  width: 350px;
+  height: 350px;
+}
+
+.title {
+  width: 350px;
+}
